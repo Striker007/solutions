@@ -14,5 +14,3 @@ class Solution(object):
 if __name__ == '__main__':
     solution = Solution()
     print(solution.reverse(-123))
-    str = "hello"
-    print(str[1:])
