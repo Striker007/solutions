@@ -1,1 +1,1 @@
-Currently going through [leetcode](https://leetcode.com/). The idea is to practice my problem solving ability and share my solutions to these problems.
+Currently going through [leetcode](https://leetcode.com/). The idea is to practice my problem solving ability and share my solutions to the problems.
