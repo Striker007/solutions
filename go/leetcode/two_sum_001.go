@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // running time : O(n^2)
 func twoSum(nums []int, target int) []int {
