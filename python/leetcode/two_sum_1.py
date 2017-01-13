@@ -10,6 +10,7 @@ class Solution(object):
                 look_for.setdefault(targ - x, n)
 
 
+
 if __name__ == '__main__':
     solution = Solution()
     nums = [2, 7, 11, 15]
