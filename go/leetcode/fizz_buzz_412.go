@@ -19,6 +19,7 @@ func fizzBuzz(n int) []string {
 			ret = append(ret, strconv.Itoa(i))
 		}
 	}
+
 	return ret
 }
 
