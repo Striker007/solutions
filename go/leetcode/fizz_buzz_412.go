@@ -1,8 +1,8 @@
 package main
 
 import (
-	"strconv"
 	"fmt"
+	"strconv"
 )
 
 func fizzBuzz(n int) []string {
@@ -22,7 +22,6 @@ func fizzBuzz(n int) []string {
 
 	return ret
 }
-
 
 func main() {
 	fmt.Println(fizzBuzz(1))
