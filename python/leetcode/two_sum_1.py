@@ -1,15 +1,15 @@
 class Solution(object):
     def twoSum(self, arr, targ):
-        # build dictionary of values on as-needed basis
+        # create empty dictionary
         look_for = {}
-        # nested for loop
+
         for n, x in enumerate(arr):
+            print(arr)
+            print(look_for)
             try:
                 return look_for[x], n
-            except KeyError:
+            except KeyError: # is raised if key is not found
                 look_for.setdefault(targ - x, n)
-
-
 
 if __name__ == '__main__':
     solution = Solution()
